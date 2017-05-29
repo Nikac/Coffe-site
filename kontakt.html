@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit - menu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Hege Refsnes">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fresh - kontakt</title>
+
+    <!-- Bootstrap -->
+    <link rel="icon" href="img/logo.ico" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
+</head>
+<body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top"><img src="img/logo1.png" alt="logo fresh" width="90px" height="35px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">O nama<span class="sr-only">(current)</span></a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="proizvodi.html">Naši proizvodi</a></li>
+                        <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--End nav bar-->
+    <!--header-->
+    <div class="jumbotron">
+        <div class="bg1">
+            <div class="container-fluid text-center">
+                <h1 class="first">Fresh</h1>
+                <h1 class="second">bar</h1>
+                <h2 class="third">fruit juice and coffe bar</h2>
+            </div>
+        </div>
+    </div>
+    <!--End header-->
+    <!--contact-->
+    <div class="container text-center">
+        <h1>Kontakt</h1>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+                <ul class="kontakt">
+                    <li>Grad: Novi Sad</li>
+                    <li>Ulica : Vojvođanskih Brigada 22</li>
+                    <li>Telefon: 021/ 30 -13 -480 </li>
+                    <li>E-mail: office@freshbar.rs</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.8767723384076!2d19.843420015830283!3d45.250284568026125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b106c78b08409%3A0x28d488a2b03c0d45!2z0JLQvtGY0LLQvtGS0LDQvdGB0LrQuNGFINCx0YDQuNCz0LDQtNCwIDIyLCDQndC-0LLQuCDQodCw0LQ!5e0!3m2!1ssr!2srs!4v1454420253231" class="map"  frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!--google map-->
+
+   <!--end google map-->
+    <!-- form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-1"></div>
+            <div class="col-lg-6 col-md-8 col-sm-10 col-xs-10">
+                <h2>Posaljite nam pitanje putem mail-a :</h2>
+
+                <form class="form-horizontal" role="form" method="POST" action="mail.php">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="vasmail@domain.com">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <label for="message" class="col-sm-2 control-label">Message</label>
+                            <textarea class="form-control" rows="4" name="message" placeholder="Vaš tekst"></textarea>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                            <input type="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php
+        }
+    ?>
+    <!--end Form-->
+
+    <!--End contact-->
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h6>Copyright &copy; 2016 Fresh - fruit juice & coffee bar</h6>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <h6>O nama</h6>
+                    <p>Mi se bavimo uslogom i pravljenjem najboljeg prirodnog soka od najvsežijeg voća.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Informacije</h6>
+                    <ul class="unsytled">
+                        <li>Grad: Novi Sad</li>
+                        <li>Ulica : Vojvođanskih Brigada 22</li>
+                        <li>Telefon: 021/ 30 -13 -480 </li>
+                        <li>E-mail: office@freshbar.rs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Pratite nas na</h6>
+                    <div class="centerM">
+                        <a class="trigger" href="https://www.facebook.com/www.freshbar.rs/?ref=hl">
+                            <span>
+                                <em>Facebook</em><i aria-hidde="true"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Dizajnirao i kodirao: <br>
+                    Nikola Guzina</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End footer-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
